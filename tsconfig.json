@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+    "target": "es5",
+
     "baseUrl": "./packages",
-    "strict": true
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
   }
 }
